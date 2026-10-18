@@ -1,0 +1,37 @@
+{
+  "name": "soldgraph",
+  "version": "1.0.0",
+  "description": "Resale price data for AI agents: what items actually sold for on eBay (8 countries), Poshmark and Mercari, plus live listings on Depop, Whatnot, OfferUp, Facebook Marketplace, Vinted and TCGplayer. Bundles the Soldgraph skill and the hosted Soldgraph MCP server.",
+  "author": {
+    "name": "Soldgraph",
+    "email": "hello@soldgraph.com",
+    "url": "https://soldgraph.com"
+  },
+  "homepage": "https://soldgraph.com/claude-code",
+  "repository": "https://github.com/soldgraph/soldgraph-agent",
+  "license": "MIT",
+  "keywords": [
+    "soldgraph",
+    "ebay",
+    "sold-prices",
+    "comps",
+    "resale",
+    "reselling",
+    "poshmark",
+    "mercari",
+    "depop",
+    "vinted",
+    "tcgplayer",
+    "pricing",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Soldgraph API key",
+      "description": "Your Soldgraph API key (starts with sg_). Get one free at https://soldgraph.com/signup",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

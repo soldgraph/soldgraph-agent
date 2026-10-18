@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "soldgraph": {
+      "type": "http",
+      "url": "https://api.soldgraph.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SOLDGRAPH_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "soldgraph",
+  "displayName": "Soldgraph",
+  "version": "1.0.0",
+  "description": "Check what items sold for on eBay, Poshmark and Mercari, and search live resale listings on six more marketplaces.",
+  "author": {
+    "name": "Soldgraph",
+    "email": "hello@soldgraph.com"
+  },
+  "homepage": "https://soldgraph.com/cursor",
+  "repository": "https://github.com/soldgraph/soldgraph-agent",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "soldgraph",
+    "ebay",
+    "sold-prices",
+    "comps",
+    "resale",
+    "reselling",
+    "poshmark",
+    "mercari",
+    "depop",
+    "vinted",
+    "tcgplayer",
+    "pricing",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "ebay",
+    "resale",
+    "pricing",
+    "mcp"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SOLDGRAPH_KEY": {
+        "type": "string",
+        "title": "Soldgraph API key",
+        "description": "Your Soldgraph API key (starts with sg_). Get one free at https://soldgraph.com/signup"
+      }
+    },
+    "required": [
+      "SOLDGRAPH_KEY"
+    ]
+  },
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
